@@ -17,5 +17,14 @@ I scanned through the provided archives in the "Reading Lists" page, and ended u
 >
 I believe that the dataset will include all three typoes of data.
 
-3. 
+3. <i>Based on your own experience, what do you think are some challenges to working with music and music-related data. How does your theme display some of these challenges? Describe the current manifestations of data relating to your selected theme, discussing how it is presently curated and how it is presented, described and analysed.</i>
 
+Depending on the type of music related data there are obviously different challenges at play. In terms of music recordings (the aspect that I have perhaps interacted most with) large file sizes can be prohibitive to the speed and flexibility of work. Especially when working with files of a high fidelity and quality, the file sizes tend to match that. This particular aspect is not neccessarily an issue with my chosen theme however. <br>
+
+Despite various conventions and standards governing musical metadata, certain details tend to fall between the cracks when the goal is to display the information to as varied an audience as possible. It is prohibitive to display every possible piece of metadate about an object at all times, and as such curatorial decisions regarding what might be considered important for the particular usecase must be adopted.<br>
+
+My chosen archive has issues displaying a consistent amount of metadata due to the varying amount of information available about each piece in their collection. Nonetheless, the SMH archive presently presents it's data in a searchable form with a keyword search, along with composer, "work category", instrumentation, date, as well as composer's gender, and piece duration as search options. The data is then provided in an alphabetizaed list, by composer and then by type of work (symphony, choir, etc.)
+
+Certain pieces have a special "edition" published by the SMH, which includes contextual information about the composer and the work. These works are the most deeply analyzed works in the archive. 
+
+The content of the archive is gathered primarily from the Swedish national libraries for music, theatre and dance. In addition, various professionals in the music field lend their hand in discovering forgotten works in their personal or institutional archives. 
