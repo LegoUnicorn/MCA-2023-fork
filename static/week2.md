@@ -24,3 +24,8 @@ The most consistent error was the pedal markings, that seemed to be placed insid
 <i>Most</i> of the notes were transcribed correctly with some exceptions, most notably in bar 4.
 
 In general, I cant really discern any major trends beyond that.
+
+<i>N.B.</i>
+I spent some time trying to figure out what the issue was, turns out the piece was employing two voices, something I was not aware was a thing. Upon udnerstanding that, the errors of the OMR were even more apparent and honestly beyond repair. I thus remade the first 10 bars for use in the later week.
+
+![10 bars of music made with MuseScore. Title of "Smärre tondikter (i sammanhang)"](img/remade.png)
