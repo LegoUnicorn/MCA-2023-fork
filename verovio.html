@@ -16,7 +16,7 @@
     #app {
         height: auto;
         width: 100%;
-        position: static;
+        position: absolute;
         top: 80px;
         bottom: 0;
     }
@@ -64,11 +64,11 @@
         </p>
     </div>
     <div id="app">Verovio is loading...</div>
-    <div><script type="module">
+    <script type="module">
         import 'https://www.verovio.org/javascript/app/verovio-app.js';
         
         const options = {
-            defaultView: 'document', // default is 'responsive', alternative is 'document'
+            defaultView: 'responsive', // default is 'responsive', alternative is 'document'
             defaultZoom: 3, // 0-7, default is 4
             enableResponsive: true, // default is true
             enableDocument: true // default is true
@@ -87,7 +87,7 @@
             .then(function(text) {
                 app.loadData(text);
             });
-    </script></div>
+    </script>
     
 
 
