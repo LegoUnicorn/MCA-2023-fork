@@ -9,3 +9,9 @@ Notation basics, using MuseScore and discussing OMR
 Using MusicXML and MEI + Verovio
 ## [Week 4](static/week4.md)
 Intor to music21, couldn't get jSymbolic to work on my computer :(
+## [Week 5](static/week5.md)
+## [Week 6](static/week6.md)
+## [Week 7](static/week7.md)
+## [Week 8](static/week8.md)    
+## [Week 9](static/week9.md)  
+## [Week 10](static/week10.md)  
