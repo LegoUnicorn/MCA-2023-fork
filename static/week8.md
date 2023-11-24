@@ -1,0 +1,1 @@
+Audio data is inheretently more wasteful in terms of space. While certain details are automatically inferred on a score, they need to be "spelled out" in an audio recording. For instance, a piano vs a mezzo-forte is a very small difference in detail on a score, but results in a vastly different size of audio recording. 
