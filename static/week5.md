@@ -21,7 +21,7 @@
 
         8. Instrument(s): the work is played on.
 
-2. Modify your MEI document to the schema.
+2. Modify your [MEI document](../data/tondikter_mei.mei) to the schema.
 
         <meiHead xml:id="ms9zko1"
             <fileDesc xml:id="f18dsve3">
