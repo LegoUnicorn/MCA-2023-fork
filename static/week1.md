@@ -1,6 +1,4 @@
-[Back to index](../README.md)
-
-<div class="week-nav">
+<div>
     <style>
         .menu {
         list-style-type: none; 
@@ -12,17 +10,17 @@
     }
     </style>
     <ul class="menu">
-    <li><a href="static/week1.md">Week 1</a></li>
-    <li><a href="static/week2.md">Week 2</a></li>
-    <li><a href="static/week3.md">Week 3</a></li>
-    <li><a href="static/week3.md">Week 4</a></li>
-    <li><a href="static/week5.md">Week 5</a></li>
-    <li><a href="static/week7.md">Week 7</a></li>
-    <li><a href="static/week8.md">Week 8</a></li>
-    <li><a href="static/week9.md">Week 9</a></li>
-    <li><a href="static/week10.md">Week 10</a></li>
+    <li><a href="../README.md">Back to index</a></li>
+    <li><a href="week1.md">Week 1</a></li>
+    <li><a href="week2.md">Week 2</a></li>
+    <li><a href="week3.md">Week 3</a></li>
+    <li><a href="week3.md">Week 4</a></li>
+    <li><a href="week5.md">Week 5</a></li>
+    <li><a href="week7.md">Week 7</a></li>
+    <li><a href="week8.md">Week 8</a></li>
+    <li><a href="week9.md">Week 9</a></li>
+    <li><a href="week10.md">Week 10</a></li>
 </ul>
-
 </div>
 
 
