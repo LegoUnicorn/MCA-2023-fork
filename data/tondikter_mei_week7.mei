@@ -5,7 +5,7 @@
    <meiHead xml:id="ms9zko1">
       <fileDesc xml:id="f18dsve3">
          <titleStmt>
-            <title type="main" auth.uri="https://levandemusikarv.se/tonsattare/andree-elfrida/SMH-W1200-Fem_smarre_tonbilder_i_sammanhang" auth="Swedish Musical Heritage">Fem Smärre Tondikter</title>
+            <title type="main" auth.uri="https://levandemusikarv.se/tonsattare/andree-elfrida/SMH-W1200-Fem_smarre_tonbilder_i_sammanhang" auth="Swedish Musical Heritage">Fem Smärre Tonbilder</title>
             <title type="subordinate" auth.uri="https://levandemusikarv.se/tonsattare/andree-elfrida/SMH-W1200-Fem_smarre_tonbilder_i_sammanhang" auth="Swedish Musical Heritage">(i sammanhang.)</title>
             <composer>Elfrida Andrée</composer>
             <respStmt>
@@ -53,7 +53,7 @@
             <score xml:id="ss69x74">
                <scoreDef xml:id="s1vmf1pj">
                   <pgHead xml:id="p9ohbml">
-                     <rend xml:id="r3jjazg" halign="center" valign="top">Smärre Tondikter</rend>
+                     <rend xml:id="r3jjazg" halign="center" valign="top">Smärre Tonbilder</rend>
                      <rend xml:id="r1eib4nk" halign="center" valign="top">(i sammanhang.)</rend>
                      <rend xml:id="rhecs9k" halign="right" valign="bottom">Elfrida Andrée</rend>
                   </pgHead>
