@@ -1807,8 +1807,6 @@ tei-zone {
 
 mei-title[type="subordinate"] {
   font-size: 18pt;
-  font-variant-caps: small-caps;
-  margin-top: -0.5em;
 }
 
 mei-filedesc > mei-titlestmt > mei-title {
@@ -1843,9 +1841,14 @@ mei-pubstmt > mei-address {
   display: none;
 }
 
-mei-filedesc > mei-pubstmt > mei-date::before {
+mei-filedesc > mei-pubstmt > mei-date[type="encoding-date"]::before {
   font-weight: bold;
   content: "Date encoded: "
+}
+
+mei-filedesc > mei-pubstmt > mei-date[type="original-pub"]::before {
+  font-weight: bold;
+  content: "Original Publishing Date: "
 }
 
 mei-filedesc > mei-pubstmt > mei-date::after {
@@ -1943,8 +1946,72 @@ mei-encodingdesc {
   display: none;
 }
 
-mei-workdesc {
-  display: none;
+mei-worklist {
+}
+
+mei-worklist > mei-work > mei-title[type="main"]::before{
+  font-weight: bold;
+  content: "Title: "
+}
+
+mei-worklist > mei-work > mei-title[type="main"]::after{
+  content: '\a \a';
+  white-space: pre;
+}
+
+mei-worklist > mei-work > mei-title[type="subordinate"]{
+  font-size:medium;
+}
+
+mei-worklist > mei-work > mei-title[type="subordinate"]::before{
+  font-weight: bold;
+  content: "Subtitle: "
+}
+
+
+mei-worklist > mei-work > mei-title[type="abbreviated"]::before{
+  font-weight: bold;
+  content: "Short title: ";
+}
+
+mei-worklist > mei-work > mei-title[type="translated"]::before{
+  font-weight: bold;
+  content: "Eng. Translation: ";
+}
+
+mei-worklist > mei-work > mei-title::after{
+  content: '\a \a';
+  white-space: pre;
+}
+
+mei-worklist > mei-work > mei-composer::before{
+  font-weight: bold;
+  content: "Composer: ";
+}
+
+mei-worklist > mei-work > mei-composer::after{
+  content: '\a \a';
+  white-space: pre; 
+}
+
+mei-worklist > mei-work > mei-creation > mei-date::before{
+  font-weight: bold;
+  content: "Originally published in: ";
+}
+
+mei-worklist > mei-work > mei-creation > mei-date::after{
+  content: '\a \a';
+  white-space: pre; 
+}
+
+mei-worklist > mei-work > mei-perfmedium > mei-perfreslist > mei-perfres::before{
+  font-weight: bold;
+  content: "Instrumentation: ";
+}
+
+mei-worklist > mei-work > mei-perfmedium > mei-perfreslist > mei-perfres::after{
+  content: '\a \a';
+  white-space: pre; 
 }
 
 mei-revisiondesc {
