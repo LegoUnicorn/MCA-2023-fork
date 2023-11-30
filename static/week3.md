@@ -20,31 +20,31 @@ Another key difference is the prescense of positional information in the MXML fi
 
 Finally, the measure tag exists in both files. However, the children of the measure tag develop very differently. To represent the F in the first chord after the rest in the third measure MEI: 
 
-Measure <br>
-|Staff [1]<br>
-||layer [1]<br>
-|||rest<br>
-|||chord [duration, stem direction]<br>
-||||artic(ulation) [staccato]<br>
-||||<b>note</b> [octave, name]<br>
+        Measure
+        |Staff [1]
+        ||layer [1]
+        |||rest
+        |||chord [duration, stem direction]
+        ||||artic(ulation) [staccato]
+        ||||note [octave, name] <---
 
 In MXML, the same note would be expressed, from measure tag:
 
-Measure<br>
-|note<br>
-|<b>note</b><br>
-||pitch<br>
-|||step<br>
-|||octave<br>
-||duration<br>
-||voice<br>
-||type<br>
-||stem<br>
-||Staff<br>
-||notations<br>
-|||slur<br>
-|||articualtions<br>
-||||staccato<br>
+        Measure
+        |note
+        |note <---
+        ||pitch
+        |||step
+        |||octave
+        ||duration
+        ||voice
+        ||type
+        ||stem
+        ||Staff
+        ||notations
+        |||slur
+        |||articualtions
+        ||||staccato
 
 In short, the same information is displayed in a "deeper" way in MEI, what allows for each step of the structure to take on some properties that affect the children. MXML on the oither hand takes a shallow approach where separate tags do the work of defining each note.
 
