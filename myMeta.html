@@ -1,0 +1,69 @@
+<html>
+<head>
+  <title>My Piece</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
+  <link rel="stylesheet" href="css/style.css" media="all" />
+  <script src="js/CETEI.js"></script>
+</head>
+<body>
+  <div id="MEImeta"></div>
+  <div id="app">Verovio is loading...</div>
+  <script type="module">
+      import 'https://www.verovio.org/javascript/app/verovio-app.js';
+      const options = {
+          defaultView: 'responsive', // default is 'responsive', alternative is 'document'
+          defaultZoom: 3, // 0-7, default is 4
+          enableResponsive: true, // default is true
+          enableDocument: true // default is true
+      }
+      // A MusicXML file
+      var file = 'data/example.mei';
+      // A MEI file
+      //var file = 'https://www.verovio.org/editor/brahms.mei';
+      const app = new Verovio.App(document.getElementById("app"), options);
+      fetch(file)
+          .then(function(response) {
+              return response.text();
+          })
+          .then(function(text) {
+              app.loadData(text);
+          });
+  </script>
+  <script>
+    // Get, parse, and show TEI data
+    var CETEIcean = new CETEI()
+    CETEIcean.getHTML5("data/example.xml", function(data) {
+      document.getElementById("TEI").appendChild(data)
+    })
+    // Get, parse and show MEI header data
+    var CETEI4MEI = new CETEI()
+    CETEI4MEI.addBehaviors({
+      namespaces: {
+        mei: "http://www.music-encoding.org/ns/mei"
+      }
+    })
+    CETEI4MEI.getHTML5("data/example.mei", function(data) {
+      // get header
+      var meiHead = data.querySelector('mei-meiHead')
+      document.getElementById("MEImeta").appendChild(meiHead)
+    })
+    var vrvToolkit = new verovio.toolkit()
+    vrvToolkit.setOptions(options = {
+        pageHeight: 500,
+        pageWidth: 1000,
+        ignoreLayout: 1,
+        border: 20,
+        scale: 50,
+        adjustPageHeight: true
+    })
+    fetch("data/example.mei").then(function( response ) {
+        response.text().then(function( data ) {
+          var svg = vrvToolkit.renderData(data, {})
+          document.getElementById('MEI').innerHTML = svg
+        })
+    })
+  </script>
+</body>
+<footer><p>Score rendering provided by <a href="http://www.verovio.org">Verovio</a>. Metadata rendered by <a href="https://github.com/TEIC/CETEIcean/"> CETEIcean</a>.</p></footer>
+</html>
