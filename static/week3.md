@@ -7,7 +7,10 @@
 
 2. Compare 3 elements in the MusicXML file to the corresponding MEI file. 
 
-[Link to Verovio.html](../verovio.html)
+[Backup to Verovio.html](../verovio.html)
+
+<iframe src="../verovio.html" width="100%" height="100vh">
+</iframe>
 
 ### Copy of answers
 <i>I couldn't get the verovio.html page to display anything other than the inline viewer, so i'm attaching a copy of the text I wrote to make sure it is visible:</i>
