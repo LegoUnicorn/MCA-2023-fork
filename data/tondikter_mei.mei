@@ -5,8 +5,8 @@
    <meiHead xml:id="ms9zko1">
       <fileDesc xml:id="f18dsve3">
          <titleStmt>
-            <title>Fem Smärre Tondikter</title>
-            <title type="subtitle">(i sammanhang.)</title>
+            <title auth.uri="https://levandemusikarv.se/tonsattare/andree-elfrida/SMH-W1200-Fem_smarre_tonbilder_i_sammanhang" auth="Swedish Musical Heritage">Fem Smärre Tondikter</title>
+            <title type="subtitle" auth.uri="https://levandemusikarv.se/tonsattare/andree-elfrida/SMH-W1200-Fem_smarre_tonbilder_i_sammanhang" auth="Swedish Musical Heritage">(i sammanhang.)</title>
             <composer>Elfrida Andrée</composer>
             <respStmt>
                <resp>Encoded by:</resp>
@@ -14,8 +14,8 @@
 				</respStmt>         
          </titleStmt>
          <pubStmt>
-            <date isodate="2023-11-06" type="encoding-date">2023-11-06</date>
-            <date isodate="1880" type="original-pub">1880</date>
+            <date isodate="2023-11-06" type="encoding-date" >2023-11-06</date>
+            <date isodate="1880" type="original-pub" >1880</date>
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="e16p96c">
@@ -27,6 +27,12 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <workList>
+         <work>
+         	<title>Smärre Tondikter (i sammanhang.)</title>
+            <key></key>
+         </work>
+      </workList>
    </meiHead>
    <music>
       <body>
