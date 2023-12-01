@@ -1,3 +1,6 @@
+<head>
+    <title>Week 1 | MCA</title>
+</head>
 <div>
     <style>
         .menu {

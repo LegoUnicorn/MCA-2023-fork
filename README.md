@@ -1,5 +1,10 @@
+<head>
+    <title>MCA Portfolio</title>
+</head>
+
 # MCA
 This is the draft portfolio page for 2568877b, to indicate structure and content (not style).
+
 
 ## [Week 1](static/week1.md)
 Basics of music data and setup
