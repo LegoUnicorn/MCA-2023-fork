@@ -36,7 +36,7 @@
 
 [Backup to Verovio.html](../verovio.html)
 
-<iframe src="../verovio.html" width="100%" height="100vh">
+<iframe src="../verovio.html" width="100%" height="1000px">
 </iframe>
 
 ### Copy of answers
