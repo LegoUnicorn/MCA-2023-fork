@@ -25,3 +25,8 @@
     <li><a href="week10.html">Week 10</a></li>
 </ul>
 </div>
+
+# Task 1
+1. The tracks that will be used are carried over from before and can be found here:
+
+    []
