@@ -31,7 +31,7 @@
 
     The tracks that will be used are carried over from before and can be found here:
 
-    | ![Sonic Visualiser Galopp three panes](/static/img/galopp_week9.png) | ![Sonic Visualiser tonbilder three panes](/static/img/tonbilder_week9.png) | ![Sonic Visualiser trastens klagan three panes](/static/img/trasten_week9.png) |
+    | [![Sonic Visualiser Galopp three panes](/static/img/galopp_week9.png)](/static/img/galopp_week9.png) | [![Sonic Visualiser tonbilder three panes](/static/img/tonbilder_week9.png)](/static/img/tonbilder_week9.png) | [![Sonic Visualiser trastens klagan three panes](/static/img/trasten_week9.png)](/static/img/trasten_week9.png) |
     |---|---|---|
     | [Galopp.mp3](/static/audio/gallopp.mp3) |   [Tonbilder.mp3](/static/audio/tonbilder.mp3) | [Trastens Klagan.mp3](/static/audio/trastens_klagan.mp3) |
     | Adaptive spectrogram, mfcc and chromagram for Princess Eugénie Bernadotte's Tullgarn's Galopp. | Adaptive spectrogram, mfcc and chromagram for Elfrida Andrée's Fem Smärre Tonbilder. | Adaptive spectrogram, mfcc and chromagram for Laura Netzel's Trastens Klagan. |
