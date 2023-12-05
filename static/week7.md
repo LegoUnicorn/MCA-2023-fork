@@ -100,5 +100,5 @@
 
     Especially important is the `<worklist>` section which i found to be the best and most consistent way to apply the metadata I needed for this task inspired by my metadata schema.
 
-    <iframe src="../myMeta.html" width="100%" height="100vh">
+    <iframe src="../myMeta.html" width="100%" height="1000px">
     </iframe>
