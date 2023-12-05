@@ -2,9 +2,9 @@
     <title>MCA Portfolio</title>
 </head>
 
-# MCA
-This is the draft portfolio page for 2568877b, to indicate structure and content (not style).
+### For a more granular look at the files in this portfolio please visit my [GitHub repo](https://github.com/LegoUnicorn/MCA-2023-fork), although everything of note should already be in here.
 
+---
 
 ## [Week 1](static/week1.md)
 Basics of music data and setup
