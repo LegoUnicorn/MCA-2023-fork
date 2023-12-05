@@ -11,6 +11,9 @@
         display: inline-block;
         margin-right: 10px;
     }
+        .sel {
+        color:lightblue;
+    }
     </style>
     <ul class="menu">
     <li><a href="../">Back to index</a></li>
@@ -22,7 +25,7 @@
     <li><a href="week7.html">Week 7</a></li>
     <li><a href="week8.html">Week 8</a></li>
     <li><a href="week9.html">Week 9</a></li>
-    <li><a href="week10.html">Week 10</a></li>
+    <li><a href="week10.html" class="sel">Week 10</a></li>
 </ul>
 </div>
 
