@@ -41,18 +41,18 @@ A time-frequency analysis can aid in understanding the contents of an audio file
 
 ## Tullgarn's Galopp
 Waveform:
-![Tullgarn's Galopp Waveform](/static/img/galopp_waves.png)
+![Tullgarn's Galopp Waveform](../static/img/galopp_waves.png)
 Spectro:
-![Tullgarn's Galopp Spectrogram](/static/img/galopp_spectro.png)
+![Tullgarn's Galopp Spectrogram](../static/img/galopp_spectro.png)
 
 ## Smärre Tonbilder
 Waveform:
-![Smärre Tonbilder Waveform](/static/img/tonbilder_waves.png)
+![Smärre Tonbilder Waveform](../static/img/tonbilder_waves.png)
 Spectro:
-![Smärre Tonbilder Spectrogram](/static/img/tonbilder_spectro.png)
+![Smärre Tonbilder Spectrogram](../static/img/tonbilder_spectro.png)
 
 ## Trastens Klagan
 Waveform:
-![Trastens Klagan Waveform](/static/img/trasten_waves.png)
+![Trastens Klagan Waveform](../static/img/trasten_waves.png)
 Spectro:
-![Trastens Klagan Spectrogram](/static/img/trasten_spectro.png)
+![Trastens Klagan Spectrogram](../static/img/trasten_spectro.png)

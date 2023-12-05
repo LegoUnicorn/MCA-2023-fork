@@ -31,9 +31,9 @@
 
     The tracks that will be used are carried over from before and can be found here:
 
-    | [![Sonic Visualiser Galopp three panes](/static/img/galopp_week9.png)](/static/img/galopp_week9.png) | [![Sonic Visualiser tonbilder three panes](/static/img/tonbilder_week9.png)](/static/img/tonbilder_week9.png) | [![Sonic Visualiser trastens klagan three panes](/static/img/trasten_week9.png)](/static/img/trasten_week9.png) |
+    | [![Sonic Visualiser Galopp three panes](../static/img/galopp_week9.png)](../static/img/galopp_week9.png) | [![Sonic Visualiser tonbilder three panes](../static/img/tonbilder_week9.png)](../static/img/tonbilder_week9.png) | [![Sonic Visualiser trastens klagan three panes](../static/img/trasten_week9.png)](../static/img/trasten_week9.png) |
     |---|---|---|
-    | [Galopp.mp3](/static/audio/gallopp.mp3) |   [Tonbilder.mp3](/static/audio/tonbilder.mp3) | [Trastens Klagan.mp3](/static/audio/trastens_klagan.mp3) |
+    | [Galopp.mp3](../static/audio/gallopp.mp3) |   [Tonbilder.mp3](../static/audio/tonbilder.mp3) | [Trastens Klagan.mp3](../static/audio/trastens_klagan.mp3) |
     | Adaptive spectrogram, mfcc and chromagram for Princess Eugénie Bernadotte's Tullgarn's Galopp. | Adaptive spectrogram, mfcc and chromagram for Elfrida Andrée's Fem Smärre Tonbilder. | Adaptive spectrogram, mfcc and chromagram for Laura Netzel's Trastens Klagan. |
 
 # Task 2
@@ -43,22 +43,22 @@
 ## Spectro
 Download links not available due to GitHub filesize limitations.
 
-| ![analysis of galopp](/static/img/spec_galopp_analysis.png) | ![analysis of tonbilder](/static/img/spec_tonbilder_analysis.png) | ![analysis of trastens klagan](/static/img/spec_trasten_analysis.png) |
+| ![analysis of galopp](../static/img/spec_galopp_analysis.png) | ![analysis of tonbilder](../static/img/spec_tonbilder_analysis.png) | ![analysis of trastens klagan](../static/img/spec_trasten_analysis.png) |
 |---|---|---|
 | Galopp | Tonbilder | Trastens Klagan |
 
 ## MFCCs
 
-| ![analysis of galopp](/static/img/galopp_analysis.png) | ![analysis of tonbilder](/static/img/tonbilder_analysis.png) | ![analysis of trastens klagan](/static/img/trasten_analysis.png) |
+| ![analysis of galopp](../static/img/galopp_analysis.png) | ![analysis of tonbilder](../static/img/tonbilder_analysis.png) | ![analysis of trastens klagan](../static/img/trasten_analysis.png) |
 |---|---|---|
-| [Galopp](/data/week_9/galopp_mfcc.csv) | [Tonbilder](/data/week_9/tonbilder_mfcc.csv)  | [Trastens Klagan](/data/week_9/trasten_mfcc.csv)  |
+| [Galopp](../data/week_9/galopp_mfcc.csv) | [Tonbilder](../data/week_9/tonbilder_mfcc.csv)  | [Trastens Klagan](../data/week_9/trasten_mfcc.csv)  |
     
 ## Chroma
 I adapted the python code after realizing that chroma features number at 12 instead of 20. 
 
-| ![analysis of galopp](/static/img/chro_galopp_analysis.png) | ![analysis of tonbilder](/static/img/chro_tonbilder_analysis.png) | ![analysis of trastens klagan](/static/img/chro_trasten_analysis.png) |
+| ![analysis of galopp](../static/img/chro_galopp_analysis.png) | ![analysis of tonbilder](../static/img/chro_tonbilder_analysis.png) | ![analysis of trastens klagan](../static/img/chro_trasten_analysis.png) |
 |---|---|---|
-| [Galopp](/data/week_9/galopp_chroma.csv) | [Tonbilder](/data/week_9/tonbilder_chroma.csv)  | [Trastens Klagan](/data/week_9/trasten_chroma.csv)  |
+| [Galopp](/data/week_9/galopp_chroma.csv) | [Tonbilder](../data/week_9/tonbilder_chroma.csv)  | [Trastens Klagan](../data/week_9/trasten_chroma.csv)  |
 
 ## Comparison
 
