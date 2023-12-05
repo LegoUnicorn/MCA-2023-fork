@@ -13,7 +13,7 @@
     }
     </style>
     <ul class="menu">
-    <li><a href="../README.html">Back to index</a></li>
+    <li><a href="../">Back to index</a></li>
     <li><a href="week1.html">Week 1</a></li>
     <li><a href="week2.html">Week 2</a></li>
     <li><a href="week3.html">Week 3</a></li>
